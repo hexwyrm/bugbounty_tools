@@ -1,0 +1,36 @@
+# Generated recon target directories
+
+# Downloaded DNS resolver list
+resolvers.txt
+
+# Recon output files
+urlscan_ips.txt
+sub_*.txt
+allsubs_*.txt
+resolved_subs.txt
+naabu_ports.txt
+nmap_details.txt
+live_web.txt
+live_urls.txt
+takeover_results.txt
+katana_urls.txt
+sensitive_files.txt
+js_files.txt
+xss_params.txt
+asn_ips_late.txt
+new_slow_subs.txt
+
+# Generated OneForAll output
+results/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
